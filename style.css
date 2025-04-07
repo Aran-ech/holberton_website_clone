@@ -7,6 +7,7 @@ body{
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
+	font-weight: bold;
 }
 
 .main_header{
@@ -14,14 +15,40 @@ body{
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 230px;
+	padding-right: 230px;
+	padding-top: 15px;
 }
-.main_header .logo_name{
+.main_header .logo_name a{
 	color: #E1003C;
+	text-decoration: none;
+	cursor: pointer;
 }
 .main_header .nav_links{
 	width: 400px;
 	display: flex;
 	justify-content: space-evenly;
+}
+.main_header .nav_links .main_links{
+	color: #E1003C;
+	text-decoration: none;
+	cursor: pointer;
+}
+.main_header .nav_links .main_links:hover{
+	color: #5F5E5E;
+}
+.main_header .apply_button{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color:#E1003C; 
+	border-radius: 50px;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+.main_header .apply_button:hover{
+	opacity: 0.7;
+	padding: 15px;
+
 }
