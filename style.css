@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+	font-family: font-family: Arial, Helvetica, sans-serif;;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+.main_header{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.main_header .logo_name{
+	color: #E1003C;
+}
+.main_header .nav_links{
+	width: 400px;
+	display: flex;
+	justify-content: space-evenly;
+}
