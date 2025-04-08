@@ -1,6 +1,8 @@
 *{
 	box-sizing: border-box;
-	font-family: font-family: Arial, Helvetica, sans-serif;;
+	font-family: font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 body{
@@ -8,16 +10,29 @@ body{
 	padding: 0;
 	min-height: 100vh;
 	font-weight: bold;
+	width: 100%;
 }
+/*body p{
+	display: inline-block;
+}*/
 
 .main_header{
 	display: flex;
+	background-color: white;
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
 	padding-left: 230px;
 	padding-right: 230px;
-	padding-top: 15px;
+	padding-top: 50px;
+	height: 70px;
+	padding-bottom: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+
 }
 .main_header .logo_name a{
 	color: #E1003C;
@@ -52,3 +67,140 @@ body{
 	padding: 15px;
 
 }
+.enroll_section{
+	background-color:#F9F9F9 ;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	position: relative;
+}
+.enroll_section .paragraph_text{
+	font-weight: bolder;
+	font-size: 70px;
+
+}
+.enroll_section .key_buttons{
+	margin-left: 400px;
+	margin-top: 30px;
+}
+.enroll_section .key_buttons .apply_now{
+	background-color:#E1003C ;
+	color: white;
+	width: 200px;
+	height: 70px;
+	border-radius: 50px;
+	border: none;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-right: 10px;
+	cursor: pointer;
+
+}
+.enroll_section .key_buttons .apply_now:hover{
+	width: 205px;
+	font-size: 22px;
+}
+.enroll_section .key_buttons .learn_more{
+	background-color:#FCFCFC ;
+	color: white;
+	width: 200px;
+	height: 70px;
+	border-radius: 50px;
+	color:#E1003C  ;
+	border:2px solid #E1003C ;
+	font-size: 20px;
+	font-weight: bolder;
+	cursor: pointer;
+
+}
+.enroll_section .key_buttons .learn_more:hover{
+	width: 205px;
+	font-size: 22px;
+	border:1px solid #E1003C ;
+
+}
+.enroll_section .main_image{
+	width: 100%;
+	height: auto;  /* ensures the with maintain its actual size(it does not get distorted) */
+	margin-top: 40px;
+}
+.floating_image{
+	height: 500px;
+	width: 330px;
+	position: absolute;
+	left: 99.3em;
+	top: 4em;
+/*	overflow-y: hidden;*/
+
+}
+.section2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 350px 20px 350px;  /*   (top right bottom left)*/
+}
+.section2 .some_texts{
+	color: #545253;
+	letter-spacing: 1px;
+/*	line-height: 35px;*/
+}
+.section2 .some_texts .paragraph1{
+	font-size: 40px;
+	color: #292728;
+	margin-bottom: 40px;
+}
+.section2 .some_texts .paragraph1 span{
+	font-weight: bolder;
+	font-size: 42px;
+	color: black;
+}
+.section2 .some_texts .paragraph2{
+	margin-bottom: 35px;
+}
+
+.section2 .descriptions {
+	display: grid;
+	grid-template-rows:100px 100px 100px 100px 100px ;
+	grid-gap: 15px;
+}
+.section2 .descriptions .descriptive_buttons{
+	width: 500px;
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+	background-color: white;
+	border: 1px solid red;
+	border-radius: 40px;
+	cursor: pointer;
+}
+/*.descriptive_buttons span{
+	margin-left: 200px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
