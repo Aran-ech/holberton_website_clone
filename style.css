@@ -135,13 +135,14 @@ body{
 .section2{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	padding: 50px 350px 20px 350px;  /*   (top right bottom left)*/
+	padding: 150px 350px 20px 350px;  /*   (top right bottom left)*/
 }
 .section2 .some_texts{
 	color: #545253;
 	letter-spacing: 1px;
-/*	line-height: 35px;*/
+	line-height: 35px;
+
+
 }
 .section2 .some_texts .paragraph1{
 	font-size: 40px;
@@ -164,7 +165,7 @@ body{
 }
 .section2 .descriptions .descriptive_buttons{
 	width: 500px;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	font-weight: bolder;
 	background-color: white;
@@ -174,7 +175,21 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
 }
+.section2 .descriptions .descriptive_buttons p{
+	margin-right: 100px;
+	align-items: center;
+	text-align: center;
+}
+.section2 .descriptions .descriptive_buttons p .icon_image{
+	background-color: #FFEBF0;
+	width: 50x;
+	height: 50px;
+	padding: 7px;
+	border-radius: 20px;
+} 
 
 
 
